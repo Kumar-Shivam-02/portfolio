@@ -3,7 +3,7 @@
   "name": "Kumar Shivam's profile",
   "icons": [
     {
-      "src": "image.png",
+      "src": "./media/image.png",
       "type": "image/png",
       "sizes": "818x818"
     }
