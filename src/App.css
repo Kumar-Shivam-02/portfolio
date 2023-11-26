@@ -1,9 +1,6 @@
-/* .App{
-background-color: rgb(207, 204, 202);
-} */
-
 /* DESKTOP NAV */
-nav, .nav-links {
+nav, 
+.nav-links {
     display: flex;
 }
 
@@ -110,17 +107,23 @@ a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-/* This is default behavious, that's why I commented it */
-/* .hamburger-icon span:first-child {
+.hamburger-icon span:first-child {
   transform: none;
+}
+
+.hamburger-icon span:first-child {
   opacity: 1;
-} */
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
 
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 2vh;
+  height: 98vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -219,6 +222,10 @@ section {
   color: white;
 }
 
+.btn-container {
+  gap: 1rem;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -226,9 +233,9 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .about-details-container {
@@ -241,9 +248,9 @@ section {
   display: flex;
 }
 
-.about-pic {
+/* .about-pic {
   border-radius: 2rem;
-}
+} */
 
 .arrow {
   position: absolute;
@@ -252,7 +259,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -263,14 +270,14 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 90%;
 }
 
-.section__pic-container {
+/* .section__pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
-}
+} */
 
 /* EXPERIENCE SECTION */
 
@@ -280,9 +287,9 @@ section {
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .experience-details-container {
@@ -302,6 +309,7 @@ section {
 
 .experience-container {
   text-align: left;
+  margin-left: 1.5rem;
 }
 
 .date{
@@ -311,13 +319,14 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
+  width: 11rem;
   justify-content: space-around;
-  gap: 0.5rem;
+  gap: 0.2rem;
 }
 
 article .icon {
   cursor: default;
+  height: 0.8rem
 }
 
 /* PROJECTS SECTION */
@@ -326,26 +335,26 @@ article .icon {
   position: relative;
 }
 
-.color-container {
+/* .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-}
+} */
 
-.project-img {
+/* .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-}
+} */
 
-.project-title {
+/* .project-title {
   margin: 1rem;
   color: black;
-}
+} */
 
-.project-btn {
+/* .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
-}
+} */
 
 /* CONTACT */
 
