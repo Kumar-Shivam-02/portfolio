@@ -292,6 +292,14 @@ section {
   margin-bottom: 0.3rem;
 }
 
+.experience-sub-title-skills {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  text-decoration: underline;
+}
+
 .experience-details-container {
   display: flex;
   justify-content: center;
