@@ -42,9 +42,10 @@ export default function NavbarMobile() {
 
   return (
     <nav id="hamburger-nav">
-      <div className="logo">Kumar Shivam</div>
-        <div className="hamburger-menu">
+      <div className="logo">KS</div>
+      <div className="hamburger-menu">
         <div className={`hamburger-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+          {/* The span elements are used as the lines that form the three bars of the hamburger icon. */}
           <span></span>
           <span></span>
           <span></span>
