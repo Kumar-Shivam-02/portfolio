@@ -49,15 +49,15 @@ export default function About() {
           </div>   
           <div className="about-containers">
             <div className="details-container">
-              <h2 className="experience-sub-title">Skills</h2>
+              <h2 className="experience-sub-title-skills">Skills</h2>
               <div className="article-container">
                 {skillsArray.map((arrayValue, index) => (
                 <article key={index}>
-                  <img
+                  {/* <img
                     src="./media/checkmark.png"
                     alt="Experience icon"
                     className="icon"
-                  />
+                  /> */}
                   <div>
                     <h3>{arrayValue}</h3>
                   </div>
