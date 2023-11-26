@@ -19,6 +19,28 @@ export default {
             },
             {
                 "id": "2",
+                "designation": "Project Lead",
+                "company": "SFU Blueprint",
+                "location": "Burnaby (Canada)",
+                "date": "Sep 2023 - Present",
+                "work": [
+                    "Developed the website using HTML, CSS, JS, and React, providing a platform for non-profits to access technology services",
+                    "Configured GitHub Actions to automate testing, building, and deployment on Vercel servers, streamlining the release process for faster and error-free updates",
+                    "Conducted code reviews for pull requests, ensuring a high standard of code quality and minimizing bugs in production"
+                ]
+            },
+            {
+                "id": "3",
+                "designation": "Teaching Assistant",
+                "company": "SFU Blueprint",
+                "location": "Burnaby (Canada)",
+                "date": "Sep 2023 - Dec 2023",
+                "work": [
+                    "Collaborated with Professor and assisted students for CMPT 473 - Software Testing, Reliability and Security"
+                ]
+            },
+            {
+                "id": "4",
                 "designation": "Software Developer",
                 "company": "Acronotics Limited",
                 "location": "Bengaluru (India)",
@@ -32,7 +54,7 @@ export default {
                 ]
             },
             {
-                "id": "3",
+                "id": "5",
                 "designation": "Project Engineer",
                 "company": "Wipro Limited",
                 "location": "Bengaluru (India)",

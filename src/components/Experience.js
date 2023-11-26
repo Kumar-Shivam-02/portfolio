@@ -8,14 +8,14 @@ export default function Experience() {
   const Experience = ({ designation, company, location, date, work }) => (
     <div className="about-containers">
       <div className="details-container">
-        <p className="experience-sub-title"><span className="date">{date}</span> {designation} | {`${company}, ${location}`} </p>
-        <div className="experience-container">
+        <p className="experience-sub-title">{designation} | {`${company}`} <span className="date">{date}</span> </p>
+        {/* <div className="experience-container">
           <ul>
             {work.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
