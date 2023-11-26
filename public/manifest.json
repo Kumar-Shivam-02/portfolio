@@ -2,11 +2,6 @@
   "short_name": "Profile",
   "name": "Kumar Shivam's profile",
   "icons": [
-    {
-      "src": "./media/image.png",
-      "type": "image/png",
-      "sizes": "818x818"
-    }
   ],
   "start_url": ".",
   "display": "standalone",
