@@ -1,11 +1,11 @@
-export default {
+const experienceData = {
     "data": {
         "experience": [
             {
                 "id": "1",
                 "designation": "Software Analyst",
                 "company": "Translink",
-                "location": "New Westminster (Canada)",
+                "location": "Canada",
                 "date": "Apr 2023 - Dec 2023",
                 "work": [
                     "Developed a Flask application in Python from scratch to retrieve and rate 10k+ work items on Azure DevOps",
@@ -21,7 +21,7 @@ export default {
                 "id": "2",
                 "designation": "Project Lead",
                 "company": "SFU Blueprint",
-                "location": "Burnaby (Canada)",
+                "location": "Canada",
                 "date": "Sep 2023 - Present",
                 "work": [
                     "Developed the website using HTML, CSS, JS, and React, providing a platform for non-profits to access technology services",
@@ -32,8 +32,8 @@ export default {
             {
                 "id": "3",
                 "designation": "Teaching Assistant",
-                "company": "SFU Blueprint",
-                "location": "Burnaby (Canada)",
+                "company": "SFU",
+                "location": "Canada",
                 "date": "Sep 2023 - Dec 2023",
                 "work": [
                     "Collaborated with Professor and assisted students for CMPT 473 - Software Testing, Reliability and Security"
@@ -42,8 +42,8 @@ export default {
             {
                 "id": "4",
                 "designation": "Software Developer",
-                "company": "Acronotics Limited",
-                "location": "Bengaluru (India)",
+                "company": "Acronotics",
+                "location": "India",
                 "date": "Oct 2021 - Aug 2022",
                 "work": [
                     "Built and successfully deployed a scalable intelligent bot capable of handling 20k+ employees for a client",
@@ -56,8 +56,8 @@ export default {
             {
                 "id": "5",
                 "designation": "Project Engineer",
-                "company": "Wipro Limited",
-                "location": "Bengaluru (India)",
+                "company": "Wipro",
+                "location": "India",
                 "date": "Jul 2018 - Sep 2021",
                 "work": [
                     "Collected model training data by using Python to scrape English and Hindi language data from various news websites",
@@ -69,3 +69,5 @@ export default {
         ]
     }
 }
+
+export default experienceData
