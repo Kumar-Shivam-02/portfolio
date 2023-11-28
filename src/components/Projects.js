@@ -8,7 +8,7 @@ export default function Projects() {
   const Project = ({ title, company, location, date, work }) => (
     <div className="about-containers">
       <div className="details-container">
-        <p className="experience-sub-title"><span className="date">{date}</span> {title} | {`${company}, ${location}`} </p>
+        <p className="experience-sub-title">{title}<span className="date">{date}</span></p>
         <div className="experience-container">
           <ul>
             {work.map((item, index) => (
