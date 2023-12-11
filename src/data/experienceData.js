@@ -3,7 +3,7 @@ const experienceData = {
         "experience": [
             {
                 "id": "1",
-                "designation": "Software Analyst",
+                "designation": "Data Analyst",
                 "company": "Translink",
                 "location": "Canada",
                 "date": "Apr 2023 - Dec 2023",
@@ -22,7 +22,7 @@ const experienceData = {
                 "designation": "Project Lead",
                 "company": "SFU Blueprint",
                 "location": "Canada",
-                "date": "Sep 2023 - Present",
+                "date": "Sep 2023 - Dec 2023",
                 "work": [
                     "Developed the website using HTML, CSS, JS, and React, providing a platform for non-profits to access technology services",
                     "Configured GitHub Actions to automate testing, building, and deployment on Vercel servers, streamlining the release process for faster and error-free updates",
@@ -34,7 +34,7 @@ const experienceData = {
                 "designation": "Teaching Assistant",
                 "company": "SFU",
                 "location": "Canada",
-                "date": "Sep 2023 - Dec 2023",
+                "date": "Sep 2023 - Present",
                 "work": [
                     "Collaborated with Professor and assisted students for CMPT 473 - Software Testing, Reliability and Security"
                 ]
