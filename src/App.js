@@ -2,6 +2,7 @@
 import './App.css';
 import './mediaqueries.css';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import NavbarDesktop from "./components/NavbarDesktop.js"
 import NavbarMobile from "./components/NavbarMobile.js"
 import Profile from "./components/Profile.js"
@@ -23,6 +24,7 @@ function App() {
       <Contact />
       <Footer />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
