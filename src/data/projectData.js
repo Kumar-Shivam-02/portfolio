@@ -10,8 +10,8 @@ const projectData = {
                 "work": [
                     "Developed a responsive website using HTML, CSS, and React, employing media queries for mobile & desktop adaptability",
                     "Utilized React components and the state hook to manage the navigation hamburger, enhancing user interaction",
-                    "Implemented a modular approach by storing site data in a separate JS file, facilitating easy content updates and enabling seamless iteration over data for the creation of multiple components",
-                    "Leveraged React's JSX syntax for declarative UI development, ensuring code readability and maintainability"
+                    "Leveraged React's JSX syntax for declarative UI development, ensuring code readability and maintainability",
+                    "Implemented a modular approach by storing data in a separate JS file, facilitating easy content updates"
                 ]
             },
             {
@@ -21,8 +21,8 @@ const projectData = {
                 "location": "Canada",
                 "date": "Sep 2022 - Dec 2022",
                 "work": [
-                    "Used PySpark to read JSON files to find the users and review trends over the last 15 years  to understand the growth",
                     "Did sentiment analysis on review text using Python's NLTK and Textblob library to use as a feature in the prediction model",
+                    "Used PySpark to read JSON files to find the users and review trends over the last 15 years to understand the growth",
                     "Used SparkML to find a relationship between the user and business attributes to predict user rating for a business"
                 ]
             },
