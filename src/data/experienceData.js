@@ -3,7 +3,7 @@ const experienceData = {
         "experience": [
             {
                 "id": "1",
-                "designation": "Data Analyst",
+                "designation": "Software Analyst",
                 "company": "Translink",
                 "location": "Canada",
                 "date": "Apr 2023 - Dec 2023",
